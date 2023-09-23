@@ -315,11 +315,6 @@
   justify-content: center;
   position: relative;
   width: 90%;
-  padding-bottom: 40px;
-  padding-top: 60px;
-}
-
-.footer__column{
 
 }
 
@@ -350,8 +345,8 @@
 
 .footer__column_content_about{
   margin: 0;
-
-}
+  width: 300px;
+} 
 
 .footer__column-heading{
   margin: 0;
@@ -363,10 +358,11 @@
 
 .footer__list{
   margin: 0;
-  
+  padding: 0;
 }
 
 .footer__column-list{
+  margin: 0;
   list-style: none;
   font-weight: normal;
   line-height: 30px;
@@ -375,17 +371,18 @@
 
 .footer__column_content_social{
   margin: 0;
-  flex-basis: 711px;
-
+  width: 250px;
 }
 
 .footer__column-link{
-
+  display: flex;
+  flex-direction: row;
 }
 
 .footer__social-icons{
   width: 16px;
   height: 16px;
   padding-right: 10px;
+  text-align: center;
 }
 
