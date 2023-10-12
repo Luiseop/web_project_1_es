@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprender a aprender</title>
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
   <div class="page">
@@ -17,7 +17,7 @@
             <a href="#" class="header__link">mas informacion &rarr;</a>
           </h2>
           <img src="./images/header-image.png" alt="una persona en una montaña" class="header__main-ilustration">
-          <div class="header header__square animation"></div>
+          <div class="header header__square rotation"></div>
     </header>
     
     <main class="content">
@@ -69,22 +69,12 @@
         <h2 class="section__section-title">Charlas TED</h2>
         <h3 class="section__section-subtitle">Para los amantes de la procrastinación</h3>
         <div class="video__iframes">
-          <iframe class="video__iframe"
-          src="https://www.youtube.com/watch?v=5MgBikgcWnY"
-          width="515px"
-          height="316px"
-          frameborder="0"
-          allowfullscreen=""></iframe>
-          <iframe class="video__iframe"
-          src="https://www.youtube.com/watch?v=arj7oStGLkU"
-          width="515px"
-          height="316px"
-          frameborder="0"
-          allowfullscreen=""></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU?si=J4I4-JX7Cbj8UnkL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY?si=5bs4A-mOKIe9bmsF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
 
-      <section class="description description_them_grey">
+      <section class="oakley">
         <div class="two-columns">
           <h2 class="two-columns__brief">La historia de Barbara Oakley.</h2>
           <div class="two-columns__main-text">
@@ -148,7 +138,7 @@
           <h4 class="khan__quote-author-subline">Director de cine</h4>
         </div> 
         <div class="khan__book-container">
-          <img class="khan__book-pic" src="./images/images_sprint-3/khan-book-2.png" alt="">
+          <div class="khan__book-pic"></div>
           <a href="#" class="khan__buy-link">Comprar libro &rarr;</a>
         </div>
 
@@ -200,8 +190,20 @@
               <p class="table__text table__text_theme_dark">Enfatizar la cantidad y la velocidad</p>
           </li>
         </ul>
-        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="Un gran triángulo azul, sobre el que Josh Kaufman reclama la propiedad">
+        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle rotation" alt="Un gran triángulo azul, sobre el que Josh Kaufman reclama la propiedad">
       </section>
+
+      <section class="resources">
+        <h2 class="section__section-title">Recursos útiles</h2>
+        <h3 class="section__section-subtitle">Más materiales sobre técnicas y trucos de aprendizaje.</h3>
+        <div class="resources__logo-zone">
+          <a class="resources__logo" href="#"><img class="resources__img" src="./images/images_sprint-3/logo/resources-tedED.png"></a>
+          <a class="resources__logo" href="#"><img class="resources__img" src="./images/images_sprint-3/logo/resources-Medium.png"></a>
+          <a class="resources__logo" href="#"><img class="resources__img" src="./images/images_sprint-3/logo/resources-dezeen.png"></a>
+          <a class="resources__logo" href="#"><img class="resources__img" src="./images/images_sprint-3/logo/resources-goodreads.png"></a>
+        </div>
+      </section>
+
     </main>
    
     <footer class="footer">
