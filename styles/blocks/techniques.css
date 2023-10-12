@@ -3,6 +3,25 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .techniques__title{
+    width: 60%;
+    font-weight: bold;
+    line-height: 1.15;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  .techniques__subtitle{
+    width: 60%;
+    font-weight: normal;
+    line-height: 34px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+  }
   
   .cards{
     width: 1050px;

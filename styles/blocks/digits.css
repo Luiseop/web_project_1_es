@@ -5,7 +5,7 @@
     padding-top: 100px;
   }
   
-  .section__title{
+  .digits__title{
     width: 60%;
     font-weight: bold;
     line-height: 1.15;
@@ -15,7 +15,7 @@
     padding-bottom: 20px;
   }
   
-  .section__subtitle{
+  .digits__subtitle{
     width: 60%;
     font-weight: normal;
     line-height: 34px;

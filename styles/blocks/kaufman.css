@@ -6,8 +6,27 @@
     align-items: center;
     position: relative;
   }
+
+  .kaufman__title{
+    width: 60%;
+    font-weight: bold;
+    line-height: 1.15;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+  }
   
-  .section__title_theme_dark{
+  .kaufman__subtitle{
+    width: 60%;
+    font-weight: normal;
+    line-height: 34px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .kaufman__title_theme_dark{
     color: white;
     padding-top: 90px;
     z-index: 2;
@@ -16,7 +35,7 @@
     font-weight: bold;
   }
   
-  .section__subtitle_theme_dark{
+  .kaufman__subtitle_theme_dark{
     color: white;
     line-height: 34px;
     font-size: 24px;
