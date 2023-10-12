@@ -1,13 +1,13 @@
 @import url("./styles/header.css");
-@import url("./styles/sections/description.css");
-@import url("./styles/sections/techniques.css");
-@import url("./styles/sections/video.css");
-@import url("./styles/sections/oakley.css");
-@import url("./styles/sections/feynman.css");
-@import url("./styles/sections/digits.css");
-@import url("./styles/sections/khan.css");
-@import url("./styles/sections/kaufman.css");
-@import url("./styles/sections/resources.css");
+@import url("./styles/blocks/description.css");
+@import url("./styles/blocks/techniques.css");
+@import url("./styles/blocks/video.css");
+@import url("./styles/blocks/oakley.css");
+@import url("./styles/blocks/feynman.css");
+@import url("./styles/blocks/digits.css");
+@import url("./styles/blocks/khan.css");
+@import url("./styles/blocks/kaufman.css");
+@import url("./styles/blocks/resources.css");
 @import url("./styles/footer.css");
 
 .page {
