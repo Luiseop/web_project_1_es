@@ -69,6 +69,11 @@
     font-size: 18px;
   }
   
+  .footer-link{
+    text-decoration: none;
+    color: white;
+  }
+
   .footer__column_content_social{
     margin: 0;
     width: 250px;
@@ -77,6 +82,8 @@
   .footer__column-link{
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    color: white;
   }
   
   .footer__social-icons{
@@ -84,5 +91,6 @@
     height: 16px;
     padding-right: 10px;
     text-align: center;
+
   }
   

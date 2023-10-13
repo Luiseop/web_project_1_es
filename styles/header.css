@@ -35,7 +35,7 @@
   
   .header__subtitle{
     width: 388px;
-    z-index: 2;
+    z-index: 5;
     margin: 0 0 30px 64px;
     font-size: 18px;
     font-weight: normal;

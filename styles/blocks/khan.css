@@ -72,6 +72,7 @@
   }
   
   .khan__buy-link{
+    height: 50px;
     color:#2f80ed;
     font-size: 30px;
     font-weight: normal;
